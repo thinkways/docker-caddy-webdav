@@ -8,6 +8,6 @@ COPY Caddyfile ./
 ENV PORT=80 \
     USERNAME= \
     PASSWORD= \
-    SCOPE=/srv
+    SCOPE=/caddy_dir
 EXPOSE ${PORT}
 ENTRYPOINT [ "caddy" ]
