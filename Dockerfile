@@ -10,4 +10,4 @@ ENV PORT=80 \
     PASSWORD= \
     SCOPE=/caddy_dir
 EXPOSE ${PORT}
-ENTRYPOINT [ "caddy" ]
+ENTRYPOINT [ "/caddy_dir/caddy" ]
